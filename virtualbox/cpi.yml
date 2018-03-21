@@ -17,9 +17,9 @@
 - type: replace
   path: /resource_pools/name=vms/cloud_properties?
   value:
-    cpus: 2
-    memory: 4096
-    ephemeral_disk: 16_384
+    cpus: 12
+    memory: 49152
+    ephemeral_disk: 75_000
 
 # Add CPI job
 - type: replace
